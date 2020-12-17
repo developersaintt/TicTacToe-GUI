@@ -137,6 +137,7 @@ def btnPressed(button):
     else:
         tkinter.messagebox.showinfo("Tic-Tac-Toe", "This Button is already Clicked!")
 ```
+## Setting frame, labels, and buttons
 ```python
 # make a label for Player 1
 label = Label( tk, text="Player 1:", font='Times 20 italic', bg='white', fg='black', height=1, width=8)
